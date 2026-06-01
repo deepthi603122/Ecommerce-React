@@ -1,0 +1,524 @@
+*{
+     margin:0;
+  padding:0;
+   box-sizing:border-box;
+}
+
+body{
+      overflow-x:hidden;
+}
+
+
+
+.nav{
+       background-color:peru;
+       display: flex;
+         gap: 20px;
+}
+
+.form{
+    border: 2px solid red;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+
+       display: flex;
+    flex-direction: column;
+    gap:10px;
+    border-radius:10px;
+    
+
+    gap: 5px;
+} 
+
+
+.btn{
+  background-color:blue;
+ 
+}
+
+.products{
+    display:flex;
+    flex-wrap:wrap;
+  gap:15px;
+  padding:20px;
+}
+
+.card{
+  width:220px;
+       border:2px solid greenyellow;
+  padding:10px;
+  text-align:center;
+}
+
+.image{
+       width:100%;
+  height:200px;
+  
+}
+
+.card h1{
+  font-size:18px;
+       margin:5px 0;
+}
+
+
+
+.productDetails{
+  text-align: center;
+  padding: 20px;
+}
+
+.productDetails img{
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.productDetails h2{
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.productDetails p{
+    width: 60%;
+    margin: auto;
+    font-size: 14px;
+     line-height: 1.5;
+}
+
+.cartItem{
+      border:2px solid black;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      width:800px;
+     padding:20px;
+}
+
+.image-container{
+  width:200px;
+  height:200px;
+}
+
+.image-container>img{
+  width:100%;
+  height:100%;
+  border-radius:20px;
+}
+
+
+
+.cart-container h1{
+  font-size:30px;
+
+}
+
+/* --------------Navbar.jsx-------------------------------------*/
+
+/* .nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background-color:peru;
+}
+
+.links{
+  display:flex;
+  gap:20px;
+}
+
+.links a{
+  color:white;
+  text-decoration:none;
+} */
+
+
+
+/* ---------------- NAVBAR ---------------- */
+
+/* .navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  background:#333;
+  padding:15px 30px;
+}
+
+.logo{
+  color:white;
+                font-size:30px;
+  font-weight:bold;
+}
+
+.navLinks{
+  display:flex;
+  gap:40px;
+}
+
+.navLinks a{
+  color:white;
+           text-decoration:none;
+  font-size:18px;
+  transition:0.3s;
+}
+
+.navLinks a:hover{
+  color:orange;
+}
+
+.navButtons{
+  display:flex;
+  gap:15px;
+}
+
+.navButtons button{
+       background:white;
+        color:black;
+  border:none;
+  padding:10px 25px;
+  font-size:16px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.navButtons button:hover{
+  background:orange;
+  color:white;
+} */
+
+
+/* ---------------- Navbar ---------------- */
+
+/* .navbar{
+  width:100%;
+  height:80px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  background:#333;
+  padding:0 40px;
+} */
+
+
+.navbar{
+  width:100%;
+  height:80px;
+  background:#333;
+
+      display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:0 40px;
+}
+
+.logo{
+  color:white;
+  font-size:32px;
+  font-weight:bold;
+}
+
+.navLinks{
+  display:flex;
+  gap:40px;
+}
+
+.navLinks a{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.navButtons{
+  display:flex;
+  gap:15px;
+}
+
+.navButtons button{
+      background:white;
+      color:black;
+       border:none;
+  padding:10px 25px;
+  border-radius:5px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+}
+
+
+
+
+
+
+/* ----------------------------Home.jsx-------------------------------------- */
+
+/* .home{
+  text-align:center;
+  padding:20px;
+}
+
+.home h1{
+  margin-top:20px;
+}
+
+.homeImage{
+  width:400px;
+  height:250px;
+  object-fit:cover;
+  margin:20px 0;
+}
+
+.home button{
+  padding:10px 20px;
+  cursor:pointer;
+} */
+
+/* ----------------------------Home.jsx-------------------------------------- */
+
+
+
+/* .home{
+  width:100%;
+  min-height:100vh;
+  margin:0;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+} */
+
+/* .home{
+  width:100%;
+  min-height:100vh;
+  margin:0;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+} */
+
+
+/* .home{
+  width:100%;
+  min-height:100vh;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+} */
+
+.home{
+  width:100%;
+  min-height:100vh;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+
+
+
+
+
+
+/* .homeImage{
+  width:800px;
+  height:450px;
+  object-fit:cover;
+  margin-top:20px;
+} */
+
+/* .homeImage{
+  width:80%;
+  max-width:800px;
+  height:450px;
+  object-fit:cover;
+  margin-top:20px;
+} */
+
+
+
+
+
+.homeImage{
+  width:900px;
+  height:500px;
+  object-fit:cover;
+}
+
+
+.home h1{
+  margin-top:20px;
+  font-size:60px;
+}
+
+.home p{
+  font-size:24px;
+}
+
+.home button{
+    padding:15px 35px;
+      font-size:18px;
+      margin-top:20px;
+}
+
+
+
+/* -------------------------------------------------------------------------Register Page ------------------------------------------- */
+
+.registerPage{
+  width:100vw;
+  min-height:100vh;
+  display:flex;
+  background:white;
+  margin:0;
+  padding:0;
+}
+
+.leftSide{
+  width:50%;
+  background:#10254d;
+  color:white;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.rightSide{
+  width:50%;
+      background:white;
+
+      display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:40px;
+}
+
+.form{
+  width:100%;
+  max-width:500px;
+  margin:auto;
+
+    display:flex;
+     flex-direction:column;
+    gap:12px;
+
+  padding:20px;
+  border:1px solid gray;
+}
+
+
+
+
+/* --------------------------------------------------------------------------LOGIN PAGE-------------------------------------------------------- */
+
+
+
+
+.loginContainer{
+  width:90%;
+        min-height:85vh;
+  margin:20px auto;
+}
+
+
+
+.loginCard{
+  width:900px;
+  min-height:900px;
+
+      background:white;
+  padding:50px;
+  border:1px solid lightgray;
+}
+
+.userIcon{
+  font-size:80px;
+  margin-bottom:20px;
+}
+
+/* .loginCard h2{
+  margin-bottom:25px;
+} */
+
+.loginCard h2{
+  margin-bottom:25px;
+            color:black;
+  font-size:40px;
+  font-weight:bold;
+}
+
+.loginForm{
+     display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.loginForm input{
+  padding:12px;
+    font-size:16px;
+}
+
+.loginForm a{
+   text-align:left;
+  font-size:14px;
+}
+
+.loginBtn{
+       width:180px;
+       background:#0d5db8;
+      color:white;
+      border:none;
+      padding:15px;
+      font-size:20px;
+      cursor:pointer;
+}
+
+
+
+
+/* -----------------------------------------------------------ABOUT PAGE----------------------------------------------------------------------- */
+
+.aboutPage{
+  width:80%;
+  min-height:85vh;
+      margin:20px auto;
+  padding:40px;
+  text-align:center;
+}
+
+.aboutPage h1{
+       font-size:60px;
+  margin-bottom:25px;
+}
+
+.aboutPage h2{
+  font-size:32px;
+      margin-top:35px;
+  margin-bottom:15px;
+}
+
+.aboutPage p{
+        font-size:20px;
+        line-height:1.8;
+        margin-bottom:15px;
+}
+
+.aboutPage ul{
+      list-style:none;
+       padding:0;
+}
+
+.aboutPage ul li{
+     font-size:20px;
+  line-height:2;
+}
