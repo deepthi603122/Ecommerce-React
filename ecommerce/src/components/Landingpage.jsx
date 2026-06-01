@@ -1,12 +1,13 @@
 import React from 'react'
 import {Outlet} from 'react-router-dom'
-import NavBar from './NavBar'
+import Navbar from "./Navbar";
 
 function Landingpage() {
   return (
     <div>
 
-        <NavBar/>  
+        
+        <Navbar /> 
         <Outlet/>
     </div>
   )
